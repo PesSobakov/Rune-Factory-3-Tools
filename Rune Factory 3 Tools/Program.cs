@@ -1862,11 +1862,11 @@ namespace Rune_Factory_3_Tools
                                 break;
                             case "-utp":
                                 UnpackTextPseudoarchive(args[1], args[2]);
-                                Console.WriteLine("PackAsset complete");
+                                Console.WriteLine("UnpackTextPseudoarchiveFolder complete");
                                 break;
                             case "-utf":
                                 UnpackTextFolder(args[1], args[2]);
-                                Console.WriteLine("PackAsset complete");
+                                Console.WriteLine("UnpackTextFolder complete");
                                 break;
                             default:
                                 Console.WriteLine("Wrong argument");
