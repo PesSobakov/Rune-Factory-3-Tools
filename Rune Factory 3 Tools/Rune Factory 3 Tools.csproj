@@ -10,4 +10,14 @@
     <InvariantGlobalization>true</InvariantGlobalization>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AssetsTools.NET" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="classdata.tpk">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
